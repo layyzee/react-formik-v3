@@ -31,6 +31,7 @@ const SignUp = () => {
   //   console.log(formik.values);
   return (
     <form onSubmit={formik.handleSubmit}>
+      <h1>Formik form </h1>
       <div className="input-container">
         <input
           id="firstName"
